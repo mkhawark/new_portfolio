@@ -9,15 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cobidev/simplefolio"
+    "url": "git+https://github.com/cobidev/simplefolio.git"
   },
   "keywords": [],
   "author": "Jacobo Martinez",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cobidev/simplefolio/issues"
-  },
-  "homepage": "https://github.com/cobidev/simplefolio#readme",
+  "deploy": "gh-pages -d src",
+  "homepage": "https://mkhawark.github.io/new_portfolio",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.4.1",
@@ -36,8 +34,12 @@
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "gh-pages": "^2.2.0",
     "jquery": "^3.4.1",
     "popper.js": "^1.16.0",
     "tilt.js": "^1.2.1"
+  },
+  "directories": {
+    "example": "examples"
   }
 }
